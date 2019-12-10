@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 공동 */
+
+body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0; }
+body { font: normal 12px "맑은 고딕", "Malgun Gothic", serif; }
+ul {list-style:none; }
+img {border:0; vertical-align:top;}
+a {text-decoration:none;}
+
+#wrap {width:100%; height:100%; margin: 0 auto; overflow:hidden; position: relative;}
+/* header */
+#header {width:100%;  background:#fff; margin: 0 auto; border-bottom:1px solid #d9d9d9; position: relative; z-index: 10;box-shadow: 0px 2px 10px -6px rgba(0,0,0,0.2);}
+#header.on {}
+#header_top_wrap{width:100%; height:27px;background:#23c6a9;}
+#header_top {margin: 0 auto;width:1000px; height:24px;}
+#header_top .login {float:right; margin-top:4px; }
+#header_top li {display:inline; float:left; margin-right:15px; }
+#header_top li a {color:#fff; }
+#header_top img {vertical-align:middle;}		
+#header_logo { height:33px;  padding-top:15px; box-sizing:border-box;}
+#header_logo h1 {text-align:center;}	
+#header_menu {margin: 15px auto 0;width:1000px; height:50px; }
+#header_menu nav{ margin:0 auto; width:1000px; overflow: hidden; position: relative;}
+#header_menu .menu li{ width:180px; height:50px;float:left; display:inline; font-size: 15px;  padding-top:15px; box-sizing:border-box;  text-align:center;  margin-right: 25px;}
+#header_menu .menu li:nth-child(5) {margin-right:0; }
+#header_menu .menu li a {color:#000; font:bold 15px "맑은 고딕"; }
+	
+
+
+#drop_sub{ margin:0 auto; width:100%; height: 130px; position:relative; display:none; z-index: 10; position: relative;}
+#drop_sub ul{ float:left; position:absolute; top: 15px; line-height:2;}
+#drop_sub ul li a{color:gray; font-size:13px;}
+#drop_sub ul li a:hover{ color:#000; text-decoration:underline;}  
+
+#drop_sub ul.sub1{ width:170px;position:absolute; left:57px; border-right:1px solid #f0f0f0;}
+#drop_sub ul.sub2{width:197px; position:absolute; left:245px; border-right:1px solid #f0f0f0;}
+#drop_sub ul.sub3{ width:162px;position:absolute; left:460px; border-right:1px solid #f0f0f0;}
+#drop_sub ul.sub4{ width:210px;position:absolute; left:638px; border-right:1px solid #f0f0f0;}
+#drop_sub ul.sub5{ position:absolute; left:863px;}
+
+.drop_inner {width: 100%; height: 130px; position: absolute; top: 126px; left: 0; background: #fff; z-index: 9; display: none; border-bottom:2px solid #23c6a9;}
+
+/*footer */
+#footer {width:100%; height:380px; background:#fff; margin-top:110px;}
+#footer address {font-style: normal; line-height: 2;}
+#footer address span {display: inline-block;}
+#footer .footer_inner1 {width:100%; height:96px; background:#efefef; border:1px solid #23c6a9;}
+.footer_inner1_1 {width:1000px; height:54px;  margin: 0 auto; }
+.footer_inner1_1 .inner_top {margin-left:3px;}
+.footer_inner1_1 .inner_top li{float:left; display:inline; font-size:13px; margin:16px 11px 0 0; color:#23c6a9; }
+.footer_inner1_1 .inner_top li:last-child{margin-right:0;}
+.footer_inner1_1 .inner_top a{color:#000;}
+
+.footer_line {width:100%; height:1px; background:#ccc;}
+
+.footer_inner1_2 {width:1000px; height:41px; margin: 0 auto; }
+.footer_inner1_2 .group_company {width:242px; height:41px; background:#8b8f9a; float:left; color:#fff; font-size:13px; padding:10px 0 0 10px; box-sizing:border-box;}
+.group_icon { float:left;}
+.group_icon li{float:left;display:inline; margin:8px 0 0 35px;}
+	
+#footer .footer_inner2 {width:1000px; height:282px; margin: 40px auto 0;}
+.footer_inner2  .footer2_left {width:730px; height:250px;  float:left; background:#fff;}
+.footer_inner2  .footer2_left p {margin-top:5px; font-size:13px; line-height:1.7;}
+.footer_inner2  .footer2_left a{color:#000; text-decoration:underline;}
+.footer_inner2  .footer2_left .award_icon {float:left; display:inline; }
+.footer_inner2  .footer2_left .award_icon li{float:left; display:inline; margin: 20px 10px 0 0;}
+
+.footer_inner2  .footer2_right {width:250px; height:250px; float:right;}
+.footer2_right .qna{float:right; margin-right:5px;}
+.footer2_right .qna li {font-size:13px; color:#000; line-height:1.7; text-align:right; margin-top:8px;box-sizing:border-box;}
+.footer2_right .qna li:first-child{margin-top:0;}
+.footer2_right .qna a{color:#000;}
+.footer2_right .sns {float:right; margin:65px 0 0 77px ; }
+.footer2_right .sns li{float:left; display:inline; margin-right:8px;}
+
+
+
+		 

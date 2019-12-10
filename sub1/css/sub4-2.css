@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menutitle {width:100%; height:55px; background:#efefef }
+.menutitle .menulist{width:1000px; margin:0 auto; padding-top:18px; box-sizing:border-box;}
+.menutitle .menulist li {float:left; display:inline; color:gray;  margin-right:15px; font-size:13px;}
+.menutitle .menulist li:last-child{font-weight:bold;}
+.menutitle .menulist a {text-decoration:none; color:#000;}
+
+
+#contents {width:100%; overflow:hidden; margin:0 auto;  position:relative;}
+
+#contents .cont_wrap{width:1000px; margin:0 auto; padding:0; }
+
+#contents .contmenu {width:998px; height:50px; border:1px solid #d9d9d9; background:#fff; border-top:none;  margin:0 auto;}
+#contents .contmenu a{float:left; width:499px; height:50px; border-right:1px solid #d9d9d9;  font-size:14px; text-align:center; padding-top:15px; box-sizing:border-box; }
+#contents .contmenu a:last-child {height:51px;background:#23c6a9; color:#fff; border:1px solid #23c6a9;}
+
+#contents .contmenu a:first-child{border-right:0;}
+#contents .contmenu a{color:#000;}
+
+#contents .cont_ex {width:1000px; height:130px; margin: 90px auto 0; border-top:1px solid gray; 
+						border-bottom:1px solid gray; position:relative;}
+#contents .cont_ex img { position:absolute; top:-40px; left:47%;}
+#contents .cont_ex p {float:left; font-size:25px; margin:45px 0 0 22px; letter-spacing:-0.4px; }
+
+
+.cont1 {width:1000px; height:2800px; margin:50px auto; overflow:hidden; 
+		border-top:2px solid gray; position:relative;}
+.cont1 .travle1 {width:1000px; height:300px; background:url(../images/travel1-3.jpg) no-repeat ; overflow:hidden; position:relative;}
+.cont1 .travle1 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle1 .txt1 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; left:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle1 .txt1 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle1 .txt1 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle1:hover .txt1{opacity:1; transform:translateX(100%);}
+.cont1 .travle1:hover .city {transform:translateX(100px);}
+
+
+
+.cont1 .travle2 {width:1000px; height:300px; background: url(../images/travel2-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle2 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle2 .txt2 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; right:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle2 .txt2 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle2 .txt2 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle2:hover .txt2{opacity:1; transform:translateX(-100%);}
+.cont1 .travle2:hover .city {transform:translateX(-100px);}
+
+
+
+.cont1 .travle3 {width:1000px; height:300px; background: url(../images/travel3-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle3 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle3 .txt3 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; left:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle3 .txt3 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle3 .txt3 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle3:hover .txt3{opacity:1; transform:translateX(100%);}
+.cont1 .travle3:hover .city {transform:translateX(100px);}
+
+
+
+
+.cont1 .travle4 {width:1000px; height:300px; background: url(../images/travel4-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle4 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle4 .txt4 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; right:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle4 .txt4 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle4 .txt4 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle4:hover .txt4{opacity:1; transform:translateX(-100%);}
+.cont1 .travle4:hover .city {transform:translateX(-100px);}
+
+
+
+
+.cont1 .travle5 {width:1000px; height:300px; background: url(../images/travel5-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle5 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle5 .txt5 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; left:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle5 .txt5 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle5 .txt5 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle5:hover .txt5{opacity:1; transform:translateX(100%);}
+.cont1 .travle5:hover .city {transform:translateX(100px);}
+
+
+
+.cont1 .travle6 {width:1000px; height:300px; background: url(../images/travel6-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle6 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle6 .txt6 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; right:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle6 .txt6 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle6 .txt6 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle6:hover .txt6{opacity:1; transform:translateX(-100%);}
+.cont1 .travle6:hover .city {transform:translateX(-100px);}
+
+
+
+
+.cont1 .travle7 {width:1000px; height:300px; background: url(../images/travel5-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle7 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle7 .txt7 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; left:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle7 .txt7 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle7 .txt7 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle7:hover .txt7{opacity:1; transform:translateX(100%);}
+.cont1 .travle7:hover .city {transform:translateX(100px);}
+
+
+
+
+.cont1 .travle8 {width:1000px; height:300px; background: url(../images/travel8-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle8 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle8 .txt8 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; right:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle8 .txt8 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle8 .txt8 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle8:hover .txt8{opacity:1; transform:translateX(-100%);}
+.cont1 .travle8:hover .city {transform:translateX(-100px);}
+
+
+
+
+.cont1 .travle9 {width:1000px; height:300px; background: url(../images/travel9-3.jpg) no-repeat ; overflow:hidden; position:relative; margin-top:12px;}
+.cont1 .travle9 .city {position:absolute; left:150px; top:20px; transition:all 0.5s ease;}
+.cont1 .travle9 .txt9 {width:250px; height:300px; background:rgba(0,0,0,0.6); opacity:1;position:absolute; top:0; left:-250px; transition:all 0.2s linear; padding: 30px 10px 0 10px; box-sizing: border-box;}
+.cont1 .travle9 .txt9 h1 {font-weight:normal; font-size:32px; color:#23c6a9; }
+.cont1 .travle9 .txt9 p{font-size:13px; color:#909090; margin-top:18px; line-height: 1.8; color:#ccc;
+}
+
+.cont1 .travle9:hover .txt9{opacity:1; transform:translateX(100%);}
+.cont1 .travle9:hover .city {transform:translateX(100px);}
+
+
+
+
+
+
+
+
+.contline { width:3px; height:200px; background:#000;position:fixed; float:left; margin-left:-2px;}
+.contline h2 {float:right; width:200px; height:100px;  font-size:30px; font-weight:normal; text-align:right; margin-right:10px; padding-top:4px; box-sizing:border-box;}
+
+

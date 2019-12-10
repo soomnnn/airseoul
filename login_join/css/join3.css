@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents {width:800px; margin: 0 auto 0px; overflow:hidden;}
+
+#contents .login_title {width:800px; height:65px; margin: 86px auto 0;}
+#contents .login_title h2 {font-size:30px;}
+#contents .login_title h3 {font-size:18px; font-weight:normal; margin-top:5px;}
+#contents .login_title p {margin-top:8px; font-size:13px;}
+
+#contents .title_line { margin-top:80px;}
+
+#contents .join {width:800px; margin:100px auto 0px; }
+
+#contents .join .join_title {width:800px; height:50px;background:url(../images/join_title3.png) no-repeat; position:relative;}
+
+
+#contents .join .join_title .title1{float:left; width:266.6px; height:50px;}
+#contents .join_title .title1 p {font-size:15px;padding:13px 0 0 55px; box-sizing:border-box; color:#000;}
+#contents .join .title1 img {float:left; margin:8px 0 0 15px;}
+#contents .join .join_title .title2{float:left; width:266.6px; height:50px;}
+#contents .join .title2 img {float:left; margin:8px 0 0 38px;}
+#contents .join_title .title2 p {font-size:15px;padding:14px 0 0 80px; box-sizing:border-box; color:#000;}
+#contents .join .join_title .title3{float:left; width:266.6px; height:50px;}
+#contents .join .title3 img {float:left; margin:8px 0 0 38px;}
+#contents .join_title .title3 p {font-size:15px;padding:14px 0 0 80px; box-sizing:border-box; color:#fff;}
+
+
+#cont1 {width:700px; height:200px;  margin:85px auto 0; }
+#cont1 img{float:right; margin-left:15px;}
+#cont1 h3{ float:left;font-size:35px; font-weight:normal; margin-left:99px; box-sizing:border-box; text-align:right; color:#ee378a;}
+#cont1 p {margin-top:34px; line-height:1.6; text-align:right;}
+
+
+
+
+
+ .okbtn { font-size:14px; width:120px; height:40px; border:none; background: #24c6a9; margin:0 auto 40px; color:#fff; cursor:pointer;}
+ .ok {text-align:center;}

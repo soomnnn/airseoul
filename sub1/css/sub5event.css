@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menutitle {width:100%; height:55px; background:#efefef }
+.menutitle .menulist{width:1000px; margin:0 auto; padding-top:18px; box-sizing:border-box;}
+.menutitle .menulist li {float:left; display:inline; color:gray;  margin-right:15px; font-size:13px;}
+.menutitle .menulist li:last-child{font-weight:bold;}
+.menutitle .menulist a {text-decoration:none; color:#000;}
+
+
+#contents {width:100%; overflow:hidden; margin:0 auto;  position:relative;}
+
+#contents .cont_wrap{width:1000px; margin:0 auto; padding:0;}
+
+#contents .contmenu {width:998px; height:50px; border:1px solid #d9d9d9; background:#fff; border-top:none;  margin:0 auto;}
+#contents .contmenu a{float:left; width:499px; height:50px; border-right:1px solid #d9d9d9;  font-size:14px; text-align:center; padding-top:15px; box-sizing:border-box; }
+#contents .contmenu a:first-child {height:51px;background:#23c6a9; color:#fff; border:1px solid #23c6a9;}
+
+#contents .contmenu a:laZst-child {border-right:0;}
+#contents .contmenu a{color:#000;}
+
+#contents .cont_ex {width:1000px; height:130px; margin: 90px auto 0; border-top:1px solid gray; 
+						border-bottom:1px solid gray; position:relative;}
+#contents .cont_ex img { position:absolute; top:-40px; left:47%;}
+#contents .cont_ex p {float:left; font-size:25px; margin:45px 0 0 100px; text-align: center; letter-spacing:-0.4px; }
+
+#contents .cont1 {width:1000px; overflow: hidden;  margin-top:80px;}
+#contents .cont1 .title {width:100%; height:55px; background:#fafafa; border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; padding: 10px 18px; box-sizing: border-box;}
+#contents .cont1 .title li {float:left; font-size:13px; }
+#contents .cont1 .title li h3 {font-size:18px; float:left; font-weight: normal;}
+#contents .cont1 .title .txt {float:right; margin-top:7px;}
+#contents .cont1 .img {margin:35px 0;}
+
+#contents .cont1 .list {width:100%; height:55px; background:#fff; border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; padding: 10px 18px; box-sizing: border-box;}
+#contents .cont1 .list a {color:#000;}
+#contents .cont1 .list a:hover {text-decoration: underline;}
+#contents .cont1 .list li {float:left; margin:8px;0 0 5px;}
+#contents .cont1 .list2{border-top:none;}
+
+.contline { width:3px; height:200px; background:#000;position:fixed; float:left; margin-left:-2px;}
+.contline h2 {float:right; width:200px; height:100px;  font-size:30px; font-weight:normal; text-align:right; margin-right:10px; padding-top:4px; box-sizing:border-box; }
+
+

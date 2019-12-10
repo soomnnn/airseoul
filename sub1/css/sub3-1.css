@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menutitle {width:100%; height:55px; background:#efefef }
+.menutitle .menulist{width:1000px; margin:0 auto; padding-top:18px; box-sizing:border-box;}
+.menutitle .menulist li {float:left; display:inline; color:gray;  margin-right:15px; font-size:13px;}
+.menutitle .menulist li:last-child{font-weight:bold;}
+.menutitle .menulist a {text-decoration:none; color:#000;}
+
+
+#contents {width:100%; overflow:hidden; margin:0 auto;  position:relative;}
+
+#contents .cont_wrap{width:1000px; margin:0 auto; padding:0;}
+
+#contents .contmenu {width:998px; height:50px; border:1px solid #d9d9d9; background:#fff; border-top:none;  margin:0 auto;}
+#contents .contmenu a{float:left; width:499px; height:50px; border-right:1px solid #d9d9d9;  font-size:14px; text-align:center; padding-top:15px; box-sizing:border-box; }
+#contents .contmenu a:last-child {height:51px;background:#23c6a9; color:#fff; border:1px solid #23c6a9;}
+
+#contents .contmenu a:first-child {border-right:0;}
+#contents .contmenu a{color:#000;}
+
+#contents .cont_ex {width:1000px; height:130px; margin: 90px auto 0; border-top:1px solid gray; 
+						border-bottom:1px solid gray; position:relative;}
+#contents .cont_ex img { position:absolute; top:-40px; left:47%;}
+#contents .cont_ex p {float:left; font-size:25px; margin:45px 0 0 100px; text-align: center; letter-spacing:-0.4px; }
+
+#contents .cont1 {width:1000px; overflow: hidden;  margin-top:80px;}
+
+#contents table {width:1100px;  height: 380px;  font-size:13px; border-collapse:collapse; border-spacing:0; letter-spacing:-0.4px; border-top:1px solid gray;}
+#contents table th {width: 300px; height:50px; text-align:left; box-sizing:border-box; border-bottom:1px solid gray; font-weight:normal; text-align: center;}
+#contents table td {height:50px; text-align:left; border-bottom:1px solid #e5f2f1; line-height: 1.7;padding:15px 0 15px 35px; box-sizing:border-box; color:#666; text-align: center;}
+#contents table td span {}
+
+#contents table .th {padding:10px; box-sizing: border-box;}
+#contents table .tx {border-top:1px solid gray;}
+
+
+#contents .cont2 {width:1000px; height:120px; margin:0 auto; margin-top:50px;}
+#contents .cont2 .txt{}
+#contents .cont2 .txt li {float: left; display: inline; width:192px; margin-right:10px;}
+#contents .cont2 .txt li:last-child{margin-right:0;}
+#contents .cont2 .line {width:50px; height:1px; background:#ee378a; margin:10px 0 5px 0;}
+
+.contline { width:3px; height:200px; background:#000;position:fixed; float:left; margin-left:-2px;}
+.contline h2 {float:right; width:200px; height:100px;  font-size:30px; font-weight:normal; text-align:right; margin-right:10px; padding-top:4px; box-sizing:border-box;}
+
+

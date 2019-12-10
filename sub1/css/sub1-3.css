@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menutitle {width:100%; height:55px; background:#efefef }
+.menutitle .menulist{width:1000px; margin:0 auto; padding-top:18px; box-sizing:border-box;}
+.menutitle .menulist li {float:left; display:inline; color:gray;  margin-right:15px; font-size:13px;}
+.menutitle .menulist li:last-child{font-weight:bold;}
+.menutitle .menulist a {text-decoration:none; color:#000;}
+
+
+#contents {width:100%; overflow:hidden; margin:0 auto;  position:relative;}
+
+#contents .cont_wrap{width:1000px; margin:0 auto; padding:0;}
+
+#contents .contmenu {width:998px; height:50px; border:1px solid #d9d9d9; background:#fff; border-top:none;  margin:0 auto;}
+#contents .contmenu a{float:left; width:332.6px; height:50px; border-right:1px solid #d9d9d9;  font-size:14px; text-align:center; padding-top:15px; box-sizing:border-box; }
+#contents .contmenu a:first-child {height:51px;background:#fff; color:#000; border:1px solid #d9d9d9; }
+#contents .contmenu a:nth-child(2){background:#fff;border-top:1px solid #d9d9d9; }
+#contents .contmenu a:last-child p {margin-top:-2px;}
+
+#contents .contmenu .contm3{background:#23c6a9;border:2px solid #23c6a9; border-right:0;}
+#contents .contmenu a{color:#000;}
+
+#contents .comimg1 img {float:left; margin-top:50px;}
+#contents .comimg1 .img1 {width:332px; margin-right:18px;}
+
+#contents .cont1 {float:left;width:1000px; overflow: hidden; margin: 0 auto;   margin-top:-50px; }  
+#contents .cont1 .intro {width:100%; overflow: hidden;  padding:0 18px;box-sizing: border-box;}
+#contents .cont1 .intro h3 {font-size:28px;}
+#contents .cont1 .intro p {font-size:13px;margin-top:5px; line-height: 1.5;letter-spacing: -0.4px; line-height: 1.4;}
+#contents .cont1 .img1 img {width:100%;margin:20px 0;}
+#contents .cont1 .img2 {margin: 20px 0;}
+#contents .cont1 .h3{font-size:28px ;margin:50px 0 20px; padding:0 18px; box-sizing: border-box;}
+
+#contents .cont1 table {width:1000px;  height: 380px;  font-size:13px; border-collapse:collapse; border-spacing:0; letter-spacing:-0.4px; }
+#contents .cont1 table th {width: 250px; height:50px; text-align:left; padding-left:45px; box-sizing:border-box; border-bottom:1px solid gray; font-weight:normal;}
+#contents .cont1 table td {height:50px; text-align:left; border-bottom:1px solid #e5f2f1; line-height: 1.7;padding:15px 0 15px 35px; box-sizing:border-box; color:#666;}
+#contents .cont1 table td span {}
+
+
+.contline { width:3px; height:200px; background:#000;position:fixed; float:left; margin-left:-2px;}
+.contline h2 {float:right; width:200px; height:100px;  font-size:30px; font-weight:normal; text-align:right; margin-right:10px; padding-top:4px; box-sizing:border-box;}
+
+
+

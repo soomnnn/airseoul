@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents {width:800px; margin: 0 auto 150px;}
+
+#contents .login_title {width:800px; height:65px; margin: 86px auto 0;}
+#contents .login_title h2 {font-size:30px;}
+#contents .login_title h3 {font-size:18px; font-weight:normal; margin-top:5px;}
+#contents .login_title p {margin-top:8px; font-size:13px;}
+
+#contents .title_line { margin-top:80px;}
+
+#contents .join {width:800px; height:1300px; margin:100px auto 0px; }
+
+#contents .join .join_title {width:800px; height:50px;background:url(../images/join_title1.png) no-repeat; position:relative;}
+
+
+#contents .join .join_title .title1{float:left; width:266.6px; height:50px;}
+#contents .join_title .title1 p {font-size:15px;padding:13px 0 0 55px; box-sizing:border-box; color:#fff;}
+#contents .join .title1 img {float:left; margin:8px 0 0 15px;}
+#contents .join .join_title .title2{float:left; width:266.6px; height:50px;}
+#contents .join .title2 img {float:left; margin:8px 0 0 38px;}
+#contents .join_title .title2 p {font-size:15px;padding:14px 0 0 80px; box-sizing:border-box; color:#000;}
+#contents .join .join_title .title3{float:left; width:266.6px; height:50px;}
+#contents .join .title3 img {float:left; margin:8px 0 0 38px;}
+#contents .join_title .title3 p {font-size:15px;padding:14px 0 0 80px; box-sizing:border-box; color:#000;}
+
+#contents .selfchek {width:800px; height:240px; margin:60px auto 70px; }
+
+#contents .selfchek h2 {font-size:25px;float:left; font-weight:normal; float:left;}
+ .selfchek .txt {float:left; display:inline; margin:17px 0 0 20px; }
+ .selfchek .liline {float:left;width:1px; height:18px; background:gray; margin:15px 0 0 20px;}
+
+ .selfchek .selfchek_txt {float:left;width:800px; height:187px; background:#fff;  border:d; font-size:14px; margin-top:25px; border-collapse:collapse; border-top: 2px solid gray; border-bottom:2px solid #ccc;}
+ .selfchek_txt th {width:170px; height:45px; background:#f4f4f4; font-weight:normal; text-align:left; padding-left:15px; box-sizing:border-box; border-bottom:1px solid #fff;}
+
+ .selfchek_txt td{ border-bottom:1px solid #e9e9e9;}
+ .selfchek_txt .form1 {width:152px; height:28px; border:1px solid #d0d0d0; margin-left:7px;}
+ .selfchek_txt .form1_1 {width:148px; height:32px; border:1px solid #d0d0d0; vertical-align:middle; margin:-3px 0 0 4px;}
+ .selfchek_txt .form2 {width:98px; height:28px; border:1px solid #d0d0d0; margin-left:7px; }
+ .selfchek_txt .form2_1 {width:98px; height:32px; border:1px solid #d0d0d0; vertical-align:middle; margin:7px;}
+ .selfchek_txt .form3 {width:170px; height:28px; border:1px solid #d0d0d0; margin-left:7px; }
+ .selfchek_txt .nobtn { width:108px; height:30px;background: #686868; border:1px solid #404040; margin:-3px 0 0 4px; color:#fff;
+ 					vertical-align:middle; cursor:pointer;}
+ .selfchek_txt span {color:#ee378a; margin-left:4px; vertical-align:middle;}
+ 
+ #contents .checktxt {width:800px; margin:0 auto ;}
+ #contents .checktxt h2 {font-size:25px;float:left; font-weight:normal; float:left;}
+ .checktxt .txt {float:left; display:inline; margin:17px 0 0 20px; }
+ .checktxt .liline {float:left;width:1px; height:18px; background:gray; margin:15px 0 0 20px;}
+ 
+#contents .checktxt_line {float:left;width:100%; height:2px; background:gray; margin-top:25px;}
+
+.ckbbox {float:left; margin: 35px 0 0 10px; font-size:17px; margin-left:0;}
+.ckbbox .ckb {vertical-align:middle; margin-right:8px;}
+.ckbbox span {color:#ee378a; margin-left:-2px;}
+
+
+#contents .cont1 {width:800px; height:150px; background:#fff; border: 1px solid #d9d9d9; padding:20px;box-sizing:border-box; overflow:auto; font-size:13px; margin-top:115px;}
+#contents .cont2 {width:800px; height:150px; background:#fff; border: 1px solid #d9d9d9; padding:20px;box-sizing:border-box; overflow:auto; font-size:13px; margin-top:70px;}
+#contents .cont3 {width:800px; height:150px; background:#fff; border: 1px solid #d9d9d9; padding:20px;box-sizing:border-box; overflow:auto; font-size:13px; margin-top:70px;}
+#contents .cont4 {width:800px; height:150px; background:#fff; border: 1px solid #d9d9d9; padding:20px;box-sizing:border-box; overflow:auto; font-size:13px; margin-top:70px;}
+ .okbtn { font-size:14px; width:120px; height:40px; border:none; background: #24c6a9; margin-top:100px; color:#fff; cursor:pointer;}
+ .ok {text-align:center;}

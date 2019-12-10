@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menutitle {width:100%; height:55px; background:#efefef }
+.menutitle .menulist{width:1000px; margin:0 auto; padding-top:18px; box-sizing:border-box;}
+.menutitle .menulist li {float:left; display:inline; color:gray;  margin-right:15px; font-size:13px;}
+.menutitle .menulist li:last-child{font-weight:bold;}
+.menutitle .menulist a {text-decoration:none; color:#000;}
+
+
+#contents {width:100%; overflow:hidden; margin:0 auto;  position:relative;}
+
+#contents .cont_wrap{width:1000px; margin:0 auto; padding:0;}
+
+#contents .contmenu {width:998px; height:50px; border:1px solid #d9d9d9; background:#fff; border-top:none;  margin:0 auto;}
+#contents .contmenu a{float:left; width:332.6px; height:50px; border-right:1px solid #d9d9d9;  font-size:14px; text-align:center; padding-top:15px; box-sizing:border-box; }
+#contents .contmenu a:first-child {height:51px;background:#fff; color:#000; border:1px solid #d9d9d9; }
+#contents .contmenu a:nth-child(2){background:#23c6a9;border:2px solid #23c6a9; }
+#contents .contmenu a:nth-child(2) p {margin-top:-2px;}
+
+#contents .contmenu a:last-child {border-right:0;}
+#contents .contmenu a{color:#000;}
+
+#contents .comimg1 img {float:left; margin-top:50px;}
+#contents .comimg1 .img1 {width:332px; margin-right:18px;}
+
+#contents .cont1 {float:left;width:1000px; overflow: hidden; margin: 0 auto;  }  
+
+#contents .cont1 .years{float:left;width:350px; overflow: hidden;}
+#contents .cont1 .years li {list-style: none; font-size: 28px; line-height:2; text-align: right; margin-right:30px; color:#999; z-index: 10;}
+#contents .cont1 .years li p {cursor: pointer; }
+
+#contents .cont1 .years .years1 {color:#000;}
+#contents .cont1 .years .years1 p {text-decoration: underline;}
+
+#contents .cont1 .history1 {float:left;width: 650px; height:500px;padding:7px 0 25px 7px; box-sizing: border-box;border-left:1px solid #ccc; margin-top:10px; transition: all 0.4s; display: block;}
+#contents .cont1 .history1 p {float:left;font-size:14px; color:#666666; text-align: left; margin-left:20px; }
+#contents .cont1 .history1 span {color:#000;} 
+#contents .cont1 .history1 img {float:right; width:300px;}
+
+
+#contents .cont1 .history2 {float:left;width: 650px; overflow: hidden; padding:7px 0 25px 7px; box-sizing: border-box;border-left:1px solid #ccc; margin-top:10px; transition: all 0.4s; display: none;}
+#contents .cont1 .history2 ul {float:left;}
+#contents .cont1 .history2 p {font-size:14px; color:#666666; text-align: left; margin-left:20px;}
+#contents .cont1 .history2 span {color:#000; margin-right:20px;} 
+
+#contents .cont1 .history3 {float:left;width: 650px; overflow: hidden; padding:7px 0 25px 7px; box-sizing: border-box;border-left:1px solid #ccc; margin-top:10px; transition: all 0.4s; display: none;}
+#contents .cont1 .history3 ul {float:left;}
+#contents .cont1 .history3 p {font-size:14px; color:#666666; text-align: left; margin-left:20px;}
+#contents .cont1 .history3 span {color:#000; margin-right:20px;} 
+
+#contents .cont1 .history4 {float:left;width: 650px; overflow: hidden; padding:7px 0 25px 7px; box-sizing: border-box;border-left:1px solid #ccc; margin-top:10px; transition: all 0.4s; display: none;}
+#contents .cont1 .history4 ul {float:left;}
+#contents .cont1 .history4 p {font-size:14px; color:#666666; text-align: left; margin-left:20px;}
+#contents .cont1 .history4 span {color:#000; margin-right:20px;} 
+#contents .cont1 .history4 img{float:right; width:300px;}
+
+
+.contline { width:3px; height:200px; background:#000;position:fixed; float:left; margin-left:-2px;}
+.contline h2 {float:right; width:200px; height:100px;  font-size:30px; font-weight:normal; text-align:right; margin-right:10px; padding-top:4px; box-sizing:border-box;}
+
+
+

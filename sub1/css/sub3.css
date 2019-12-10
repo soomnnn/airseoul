@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menutitle {width:100%; height:55px; background:#efefef }
+.menutitle .menulist{width:1000px; margin:0 auto; padding-top:18px; box-sizing:border-box;}
+.menutitle .menulist li {float:left; display:inline; color:gray;  margin-right:15px; font-size:13px;}
+.menutitle .menulist li:last-child{font-weight:bold;}
+.menutitle .menulist a {text-decoration:none; color:#000;}
+
+
+#contents {width:100%; overflow:hidden; margin:0 auto;  position:relative;}
+
+#contents .cont_wrap{width:1000px; margin:0 auto; padding:0;}
+
+#contents .contmenu {width:998px; height:50px; border:1px solid #d9d9d9; background:#fff; border-top:none;  margin:0 auto;}
+#contents .contmenu a{float:left; width:499px; height:50px; border-right:1px solid #d9d9d9;  font-size:14px; text-align:center; padding-top:15px; box-sizing:border-box; }
+#contents .contmenu a:first-child {height:51px;background:#23c6a9; color:#fff; border:1px solid #23c6a9;}
+
+#contents .contmenu a:last-child {border-right:0;}
+#contents .contmenu a{color:#000;}
+
+#contents .cont_ex {width:1000px; height:130px; margin: 90px auto 0; border-top:1px solid gray; 
+						border-bottom:1px solid gray; position:relative;}
+#contents .cont_ex img { position:absolute; top:-40px; left:47%;}
+#contents .cont_ex p {float:left; font-size:25px; margin:45px 0 0 22px; letter-spacing:-0.4px; }
+
+#contents .cont1 {width:1000px; height:185px;  margin-top:80px;}
+#contents .cont1 h2 {font-weight:normal; font-size: 28px; text-align:center; }
+#contents .cont1 .cont1_txt { float:left; margin-top:20px;}
+#contents .cont1 .cont1_txt li{float:left; width:332.6px; height:50px;font-size:14px; text-align:left; padding:15px; box-sizing:border-box;  letter-spacing:-0.4px; line-height:1.4; }
+#contents .cont1 .cont1_txt .line {width:50px; height:1px; background:#ee378a; margin-bottom:10px;}
+
+
+#contents .cont2 {width:1000px; height:200px;  margin-top:50px; }
+#contents .cont2 h2 {font-weight:normal; font-size: 28px; text-align:center; }
+#contents .cont2 .cont2_txt { float:left; width: 1000px; height:120px; margin-top:20px; padding:20px 0 0 35px;
+								 box-sizing:border-box; font-size:20px; line-height:1.4;  background:#f7f7f7;}
+#contents .cont2 .cont2_txt li{float:left; height:50px; text-align:left; letter-spacing:-0.4px;}
+#contents .cont2 .cont2_txt li:first-child {width:435px; text-align:right;}
+#contents .cont2 .cont2_txt li:last-child {margin-left:60px;}
+#contents .cont2 .cont2_txt span {color:#008477;}
+#contents .cont2 .cont2_txt .line {width:50px; height:1px; background:#ee378a; margin:10px 0 5px 0;}
+#contents .cont2 .cont2_txt .line1 {width:50px; height:1px; background:#ee378a; margin:10px 0 5px 385px;}
+
+
+
+#contents .cont3 {width:2000px; height:700px; left:50%; margin-left:-500px;background:#fafafa; margin-top:50px;}
+#contents .cont3 .line1 {width:2000px; height:4px; background:#fff; top:10%;}
+#contents .cont3 .line2 {width:4px; height:500px; background:#fff;float:left;} 
+#contents .cont3 .cont3_tit {width:1000px; height:180px; margin:0 auto; text-align:center;}
+#contents .cont3 .cont3_tit  h2 {font-weight:normal; font-size: 28px; padding-top:50px; box-sizing:border-box;}
+#contents .cont3 .cont3_tit p{font-size:14px; margin-top:15px; letter-spacing:-0.4px;}
+
+#contents .cont3 .cont3_1 {width:998px; height:400px;  float:left; margin-top:60px;}
+#contents .cont3 .cont3_1 .cont3_1wrap {float:right; width:497px; height:400px; }
+#contents .cont3 .cont3_1 p {text-align:center; font-size:14px; }
+#contents .cont3 .cont3_1 table { width:497px; height:200px;border:2px solid #bcbcbc;  border-left:0; border-right:0 ;border-collapse:collapse; border-spacing:0; margin-top:20px; }
+#contents .cont3 .cont3_1 table th { font-weight:normal; text-align:left; padding-left:17px;box-sizing:border-box;line-height:1.4; vertical-align:top; padding-top:19px; font-size:14px;}  
+#contents .cont3 .cont3_1 table td {text-align:right;line-height:1.4; padding:0 10px; color:#666;}
+#contents .cont3 .cont3_1 table .td {border-top:1px solid #e9e9e9;}
+
+
+.cont3_1list .line {width:50px; height:1px; background:#ee378a; margin:35px 0 7px 0;}
+.cont3_1list {padding:10px; box-sizing:border-box; color:#666;}
+.cont3_1list li {float:left; display:inline}
+.cont3_1list li:last-child {float:right;}
+
+
+#contents .cont3 .cont3_2 {width:998px; height:400px;  float:left; margin-top:60px;}
+#contents .cont3 .cont3_2 .cont3_2wrap {float:left; width:497px; height:400px; }
+#contents .cont3 .cont3_2 p {text-align:center; font-size:14px; }
+#contents .cont3 .cont3_2 table { width:497px; height:200px;border:2px solid #bcbcbc;  border-left:0; border-right:0 ; border-collapse:collapse; border-spacing:0; margin-top:20px; }
+#contents .cont3 .cont3_2 table th {font-weight:normal; text-align:left; padding-left:17px;box-sizing:border-box;line-height:1.4; padding-top:-1px; font-size:14px;}
+#contents .cont3 .cont3_2 table th span {vertical-align:middle; padding-top:50px;}
+#contents .cont3 .cont3_2 table td {text-align:right;line-height:1.4;padding:0 10px;  color:#666;}
+#contents .cont3 .cont3_2 table .td {border-top:1px solid #e9e9e9;}
+
+
+.cont3_2list .line {width:50px; height:1px; background:#ee378a; margin:35px 0 7px 0;}
+.cont3_2list {padding:10px; box-sizing:border-box; color:#666;}
+.cont3_2list li {float:left; display:inline;}
+.cont3_2list li:last-child {float:right;}
+
+
+
+#contents .cont3 .cont3_2 {width:998px; height:400px; background:#fafafa; float:right; }
+
+
+#contents .cont4 {width:1000px; height:185px;  margin-top:80px;}
+#contents .cont4 h2 {font-weight:normal; font-size: 28px; text-align:center; }
+#contents .cont4 .cont4_txt { float:left; margin-top:20px;}
+#contents .cont4 .cont4_txt li{float:left; width:247px; height:50px;font-size:14px; text-align:left; padding:15px; box-sizing:border-box;  letter-spacing:-0.4px; line-height:1.4; }
+#contents .cont4 .cont4_txt .line {width:50px; height:1px; background:#ee378a; margin-bottom:10px;}
+
+
+#contents .cont5 {width:1000px; height:180px; margin:0 auto; text-align:center; background:#fafafa;}
+#contents .cont5 h2 {font-weight:normal; font-size: 28px; padding-top:50px; box-sizing:border-box;}
+#contents .cont5 p{font-size:14px; margin-top:15px; letter-spacing:-0.4px;}
+
+
+.contline { width:3px; height:200px; background:#000;position:fixed; float:left; margin-left:-2px;}
+.contline h2 {float:right; width:200px; height:100px;  font-size:30px; font-weight:normal; text-align:right; margin-right:10px; padding-top:4px; box-sizing:border-box;}
+
+
