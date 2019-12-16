@@ -1,7 +1,7 @@
-# jquery-mini-event-calendar
-Jquery mini event calendar.
+# 개인프로젝트_에어서울 리뉴얼 페이지 (AIRSEOUL RENEWAL PAGE)
 
-## how to use
-Download and include `mini-event-calendar.min.js` and `mini-event-calendar.min.css` then include them in your site.
+에어서울 리뉴얼
+>웹 퍼블리싱/ 웹 디자인 (작업:100%)
 
-Check out `exmple.html` to see how to use.
+## VIEW
+[에어서울 RENEWAL SITE VIEW](https://soomnnn.github.io/airseoul/)
